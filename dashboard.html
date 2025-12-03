@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - AI Chatbot Builder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <h2>🤖 AI Builder</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active">
+                    <span class="icon">📊</span>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">🤖</span>
+                    <span>My Bots</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">➕</span>
+                    <span>Create New Bot</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">📈</span>
+                    <span>Analytics</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">⚙</span>
+                    <span>Settings</span>
+                </a>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="avatar">👤</div>
+                    <div class="user-info">
+                        <div class="user-name">User Name</div>
+                        <div class="user-plan">Pro Plan</div>
+                    </div>
+                </div>
+                <a href="index.html" class="btn-logout">Logout</a>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="dashboard-header">
+                <div>
+                    <h1>Dashboard</h1>
+                    <p>Welcome back! Here's your bot overview</p>
+                </div>
+                <button class="btn-primary">+ Create New Bot</button>
+            </header>
+
+            <section class="section-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">🤖</div>
+                        <div class="stat-info">
+                            <h3>Total Bots</h3>
+                            <p class="stat-number">3</p>
+                            <span class="stat-change positive">+1 this month</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">💬</div>
+                        <div class="stat-info">
+                            <h3>Messages</h3>
+                            <p class="stat-number">1,247</p>
+                            <span class="stat-change positive">+23% vs last month</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-info">
+                            <h3>Users</h3>
+                            <p class="stat-number">428</p>
+                            <span class="stat-change positive">+15%</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⚡</div>
+                        <div class="stat-info">
+                            <h3>API Calls</h3>
+                            <p class="stat-number">8,240</p>
+                            <span class="stat-change">82% of limit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-section">
+                    <h2>Your AI Bots</h2>
+                    <div class="bots-grid">
+                        <div class="bot-card">
+                            <div class="bot-header">
+                                <div class="bot-icon">💼</div>
+                                <div class="bot-status active">● Active</div>
+                            </div>
+                            <h3>Customer Support Bot</h3>
+                            <p>Handles customer inquiries and support tickets</p>
+                            <div class="bot-stats">
+                                <span>542 conversations</span>
+                                <span>4.8★ rating</span>
+                            </div>
+                            <div class="bot-actions">
+                                <button class="btn-secondary btn-sm">Edit</button>
+                                <button class="btn-primary btn-sm">Analytics</button>
+                            </div>
+                        </div>
+
+                        <div class="bot-card">
+                            <div class="bot-header">
+                                <div class="bot-icon">📚</div>
+                                <div class="bot-status active">● Active</div>
+                            </div>
+                            <h3>Knowledge Base Bot</h3>
+                            <p>Answers from your documentation</p>
+                            <div class="bot-stats">
+                                <span>324 conversations</span>
+                                <span>4.5★ rating</span>
+                            </div>
+                            <div class="bot-actions">
+                                <button class="btn-secondary btn-sm">Edit</button>
+                                <button class="btn-primary btn-sm">Analytics</button>
+                            </div>
+                        </div>
+
+                        <div class="bot-card create-new">
+                            <div class="create-icon">➕</div>
+                            <h3>Create New Bot</h3>
+                            <p>Start building your next AI assistant</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
